@@ -7,7 +7,7 @@ distFolder = "applications/electron/dist"
 
 pipeline {
     agent none
-    triggers { cron('@daily') }
+    // triggers { cron('@daily') }
     options {
         timeout(time: 5, unit: 'HOURS')
         disableConcurrentBuilds()
